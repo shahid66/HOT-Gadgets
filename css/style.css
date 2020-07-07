@@ -1,0 +1,121 @@
+.bg-light {
+	background-color: #f8f9fa00 !important;
+}
+section{
+    padding-bottom: 40px;
+}
+.bestproduct{
+    position: absolute;
+    bottom: 25%;
+    left: 46%;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: #707070;
+    opacity: 0.1;
+}
+.buy-now{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+}
+.caption{
+    padding-right: 5px;
+}
+.carousel-section{
+    font-family: 'Poppins', sans-serif;
+color: #707070;
+font-weight: 300;
+font-size: 18px;
+}
+.carousel-indicators li {
+	position: relative;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 12px;
+    height: 10px;
+    border-radius: 30px;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	background-color: rgb(155, 153, 153);
+}
+.carousel-indicators .active {
+    background-image: linear-gradient(to right, rgba(253, 105, 105, 0.733)0% , orange 100%);
+    width: 35px;
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 45px gray;
+}
+
+.card-footer{
+    border: none;
+    background-color: white;
+    padding-bottom: 35px;
+    
+}
+.card-footer:last-child {
+	border-radius: 0 0 10px 10px;
+}
+.card-img-top {
+	width: 100%;
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
+	padding: 30px;
+}
+.card-text{
+    padding-top:20px ;
+    padding-bottom: 10px;
+    color: gray;
+}
+.catagories{
+    padding-top: 40px;
+}
+.catagories h2{
+    
+    position: relative;
+    
+}
+.catagories h2::before {
+	position: absolute;
+	content: '';
+	width: 108px;
+	height: 8px;
+	
+	bottom: -15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, orange 100%,rgba(253, 105, 105, 0.733)0%);
+}
+
+
+.imag img{
+    box-shadow: 5px 5px 40px rgb(197, 197, 197);
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+    border-radius: 0px 20px 0px 20px;
+    
+}
+.imag1 img{
+    margin-top: 40px;
+    box-shadow: 5px 5px 40px rgb(197, 197, 197);
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+    border-radius: 0px 0px 20px 0px;
+}
+.see-all-a{
+    color: orange;
+}
+.see-all-a:hover {
+    color: orange;
+    text-decoration: none;
+}
